@@ -1,0 +1,25 @@
+** From thenewboston git tutorial**
+-----------------------------------
+Git Bash will be UNIX operating. 
+Commands:
+	ls - look at files / folders in the currenty directory
+	cd - current directory
+	cd .. - go back one directory
+	'ls -la' - looks at all the files in the directory, including the invisible files
+
+Git Commands:
+	git init - creates that directory as a GIT repository. Everything in the folder will be tracked for GIT.
+	git commit -m "" - creates a snapshot of your code. Similar to save button. Commits are how you get back
+			   to certain points in time.
+	git log - tells you what has been happening in that specific folder for GIT
+	git status - tells you the status of that GIT directory (ex: untracked/new files added)
+	git add __name of file__ (ex: git add test.py). This will add the specific file to the staging area
+		working copy > staging area > repository
+			Staging area: these are the files that are ready to get committed. Repo is end goal.
+	
+Q: How to edit files?
+A: Edit the file, git status to see if it detects the edits, git add __name of file__ (this will add to STAGING AREA)
+   git commit -m "", now make sure it's inserted and do git status to check if it's good.
+
+Q: How to edit multiple files?
+A: git status, git add . (staging area), git commit -m "", git status to check.
