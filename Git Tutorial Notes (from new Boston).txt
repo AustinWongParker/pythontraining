@@ -1,6 +1,6 @@
 ** From thenewboston git tutorial**
 -----------------------------------
-Git Bash will be UNIX operating. 
+Git Bash will be UNIX operating.
 Commands:
 	ls - look at files / folders in the currenty directory
 	cd - current directory
@@ -21,7 +21,7 @@ Git Commands:
 	git rm __name of file__ - removes the file. You'll need to commit that file after
 	git mv __old file__ __new file__ - this will move an old file to the new file (similar to overwriting)
 	git checkout -- __file name__ - checkout means take something from repo and make it your working copy.
-	
+
 Q: How to edit files?
 A: Edit the file, git status to see if it detects the edits, git add __name of file__ (this will add to STAGING AREA)
    git commit -m "", now make sure it's inserted and do git status to check if it's good.
@@ -36,7 +36,7 @@ Q: How to compare staging area with the repo?
 A: git diff --staged
 
 Q: Delete files?
-A: git rm __name of file__, git commit -m "" after 
+A: git rm __name of file__, git commit -m "" after
 
 Q: How to rename files?
 A: If you rename a file, Git believes it's been removed and you added a new file, so that's what we do
@@ -63,7 +63,7 @@ A: check git log to see the list of commits, make a copy of the commit you want:
    git status, git commit -am "undo..."
 
 Q: Undo files from working directory? (committed files that weren't suppose to be)
-A: git checkout -- __file name__ 
+A: git checkout -- __file name__
 
 * GITHUB *
 ----------
@@ -75,12 +75,8 @@ Git Commands (for Github):
 
 1. Create new repository (on github website)
 	a. DO NOT initialize w/ README if you already initialized it in the directory/folder
-2. Get directory ready and up-to-date. 
-3. Set-up connection from local comp to github (remote). 
+2. Get directory ready and up-to-date.
+3. Set-up connection from local comp to github (remote).
 	a. git remote add 'nickname' __URL address_
 4. git push (giving them to the server)
-
-
-
-
-
+	a. git push -u 'nickname' master
