@@ -80,3 +80,6 @@ Git Commands (for Github):
 	a. git remote add 'nickname' __URL address_
 4. git push (giving them to the server)
 	a. git push -u 'nickname' master
+
+Q: How to get the same code from github and merge it with your local repository?
+A: git pull, then git merge
