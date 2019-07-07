@@ -41,7 +41,6 @@ for(int i=0; i < 5; i++){
     print(i) # output: 0, 1, 2, 3, 4
 }
 
-'''
 
 # This is how Python does it
 
@@ -52,3 +51,4 @@ for x in example_list:
         break
 else:
     print("We didn't find the boy")
+'''
