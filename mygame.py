@@ -5,11 +5,10 @@ Austin Wong-Parker
 
 6 - 11 - 19
 
-** Code taken from https://www.pygame.org/docs/tut/PygameIntro.html **
+** Taken from https://www.pygame.org/docs/tut/PygameIntro.html **
 '''
 
-import sys
-import pygame
+import sys, pygame
 pygame.init()
 
 size = width, height = 320, 240
