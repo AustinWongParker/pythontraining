@@ -89,3 +89,7 @@ def e_0305():
     clock = 1400
     alarm = 535
     print(clock + alarm)
+
+    # author's solution: print( str( (14 + 535) % 24 ) + ".00" )
+    # Side note: not sure how this is 21.00, that means it's 9pm. If 1400 is 2pm and you set and alarm for 535hours later, wouldn't it be 735pm??
+    # Unclear and will leave my current function above as is.
