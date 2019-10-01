@@ -4,6 +4,8 @@ Austin Wong-Parker
 6 - 11 - 19
 
 ** All code is written by me for PRACTICE only **
+
+*** Code in some areas are NOT correct - written by others ***
 '''
 
 '''
